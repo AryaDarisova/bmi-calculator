@@ -141,7 +141,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="HMx-1u-BZd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="HMx-1u-BZd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HkT-fj-4Zn">
@@ -201,6 +201,7 @@
                     <connections>
                         <outlet property="adviceLabel" destination="6oL-sv-TZy" id="ALK-rd-tPY"/>
                         <outlet property="bmiResultLabel" destination="r4m-i6-XCf" id="uiq-H3-7aq"/>
+                        <outlet property="view" destination="9rF-9h-MfF" id="pZR-Fr-UBG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jB6-04-fPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
